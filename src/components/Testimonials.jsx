@@ -4,6 +4,7 @@ import FeedBackCard from "./FeedBackCard";
 
 const Testimonials = () => (
   <section
+    id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} relative flex-col`}
   >
     {/* Gradient BG */}

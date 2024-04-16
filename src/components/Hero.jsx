@@ -3,7 +3,10 @@ import styles from "../style";
 import GetStarted from "./GetStarted";
 const Hero = () => {
   return (
-    <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section
+      id="home"
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    >
       <div
         className={`flex ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
